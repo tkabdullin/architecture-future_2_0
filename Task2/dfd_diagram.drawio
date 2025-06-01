@@ -1,0 +1,316 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="Afj3OeiZmIoyrDjITLXo">
+    <mxGraphModel dx="4903" dy="4103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-7" value="Домен &quot;Витрина данных&quot;" style="html=1;dashed=0;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="501" width="810" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-6" value="Домен &quot;Управление клиникой&quot;" style="html=1;dashed=0;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-280" width="970" height="1332.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-1" target="ZxRCe5dSzPOi-b-VUida-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-1" target="ZxRCe5dSzPOi-b-VUida-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-1" target="ZxRCe5dSzPOi-b-VUida-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="485" />
+              <mxPoint x="10" y="1000" />
+              <mxPoint x="565" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-1" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-2" target="ZxRCe5dSzPOi-b-VUida-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-2" value="Регистрация пациента" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="190" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-3" target="ZxRCe5dSzPOi-b-VUida-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-3" value="Запись на прием" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="260" y="427.5" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="850" y="1100" width="1030" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-19" value="Домен &quot;Искусственный интелект&quot;" style="html=1;dashed=0;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry width="960" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-20" target="ZxRCe5dSzPOi-b-VUida-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-20" target="ZxRCe5dSzPOi-b-VUida-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-20" value="ИИ сервисы Python" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="50" y="335" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-21" target="ZxRCe5dSzPOi-b-VUida-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-21" value="Обработка медицинских данных" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="65" y="40" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-22" target="ZxRCe5dSzPOi-b-VUida-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-22" value="Анализ изображений" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="65" y="540" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-23" target="ZxRCe5dSzPOi-b-VUida-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-23" target="ZxRCe5dSzPOi-b-VUida-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-23" value="Сервисы для обработки данных и обучения моделей" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="400" y="335" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-24" value="База данных заболеваний" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="382.5" y="95" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-25" target="ZxRCe5dSzPOi-b-VUida-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-25" value="Постановка диагнозов" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="750" y="290" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-26" target="ZxRCe5dSzPOi-b-VUida-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-37" source="ZxRCe5dSzPOi-b-VUida-26" target="ZxRCe5dSzPOi-b-VUida-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-26" value="API для доступа к ИИ сервисам" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="415" y="540" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-27" value="Разработка рекомендаций по лечению" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-37">
+          <mxGeometry x="750" y="540" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-66" target="ZxRCe5dSzPOi-b-VUida-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-66" target="ZxRCe5dSzPOi-b-VUida-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="810" />
+              <mxPoint x="750" y="810" />
+              <mxPoint x="750" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-62" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-62" value="База данных пациентов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="351" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-63" target="ZxRCe5dSzPOi-b-VUida-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-63" value="DWH" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="730" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-64" target="ZxRCe5dSzPOi-b-VUida-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318" y="608" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-64" target="ZxRCe5dSzPOi-b-VUida-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318" y="908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-64" value="API для доступа к медицинским данным" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="260" y="697.5" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-65" target="ZxRCe5dSzPOi-b-VUida-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-65" target="ZxRCe5dSzPOi-b-VUida-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-65" value="Ведение медицинской карты" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="550" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-66" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-66" value="База данных медицинских карт" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="740" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-67" target="ZxRCe5dSzPOi-b-VUida-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-67" value="Просмотр медицинской карты" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="850" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-68" target="ZxRCe5dSzPOi-b-VUida-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-68" value="Персонал" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-155" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-69" target="ZxRCe5dSzPOi-b-VUida-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-69" value="Управление персоналом" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-190" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-70" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-70" value="База данных персонала" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-145" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-71" target="ZxRCe5dSzPOi-b-VUida-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-71" value="Инвентарь" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-72" target="ZxRCe5dSzPOi-b-VUida-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-72" value="Учет инвентаря" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-73" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-73" value="База данных инвенторя" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-8" target="ZxRCe5dSzPOi-b-VUida-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-8" value="Сервисы для управления доступом и авторизацией" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2069.5" y="1071" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-9" target="ZxRCe5dSzPOi-b-VUida-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-9" value="Агрегация данных" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2070.5" y="551" width="169" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-10" target="ZxRCe5dSzPOi-b-VUida-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-10" value="API Gateway" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="841" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-12" target="ZxRCe5dSzPOi-b-VUida-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-12" value="BI Platform" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="761" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-13" value="Бизнес-пользователи" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="751" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-24" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-109" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1740" y="-530" width="1200" height="795" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-38" value="Домен Финансовые услуги&quot;" style="html=1;dashed=0;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry width="1200" height="795" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-39" target="ZxRCe5dSzPOi-b-VUida-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-39" target="ZxRCe5dSzPOi-b-VUida-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-39" target="ZxRCe5dSzPOi-b-VUida-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-39" value="Клиент" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="397.5" y="95" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-40" target="ZxRCe5dSzPOi-b-VUida-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-40" value="Открытие счета" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="690" y="285" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-41" target="ZxRCe5dSzPOi-b-VUida-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-41" value="Платеж" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="390" y="285" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-42" target="ZxRCe5dSzPOi-b-VUida-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-42" value="Кредитование" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="97.5" y="285" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-43" target="ZxRCe5dSzPOi-b-VUida-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-43" target="ZxRCe5dSzPOi-b-VUida-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-43" value="Финтех-сервисы на Golang и Java" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="190" y="445" width="222.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-44" target="ZxRCe5dSzPOi-b-VUida-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-44" value="База данных клиентов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="652.5" y="465" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-45" target="ZxRCe5dSzPOi-b-VUida-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-45" value="База данных счетов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="352.5" y="540" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-46" target="ZxRCe5dSzPOi-b-VUida-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-46" value="База данных кредитов" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="60" y="672.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-47" value="Финансовая отчетность" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="1040" y="630" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZxRCe5dSzPOi-b-VUida-109" source="ZxRCe5dSzPOi-b-VUida-48" target="ZxRCe5dSzPOi-b-VUida-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-48" value="API для доступа к финансовым данным" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="ZxRCe5dSzPOi-b-VUida-109">
+          <mxGeometry x="1040" y="405" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.233;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-46" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-111" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-45" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxRCe5dSzPOi-b-VUida-112" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxRCe5dSzPOi-b-VUida-44" target="ZxRCe5dSzPOi-b-VUida-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
