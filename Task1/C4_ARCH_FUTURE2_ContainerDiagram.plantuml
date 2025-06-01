@@ -12,17 +12,13 @@ System_Boundary(company, "Компания Будущее 2.0") {
 
     System(IdP, "Keycloak", "Сервер аутентификации и авторизации")
 
-
     Container(api_gateway, "Back-end for front-end", "KrakenD", "Единая точка доступа к данным и сервисам")
-
     Rel_R(api_gateway, IdP, "Использует для аутентификации и авторизации")
-
 
     Component(fintech_system, "Финтех-система", "Golang, Java", "Финансовые услуги и управление счетами") {
         Container(fintech_fe, "Клиентское приложение", "React Native", "")
         Container(fintech_be, "Бэкенд финтех-системы", "Golang, Java", "Бэкенд для финансовых операций")
         ContainerDb(fintech_db, "БД финтех-системы", "PostgreSQL", "Хранение данных о клиентах и операциях")
-
     }
 
     Rel_D(fintech_fe, api_gateway,"HTTPS", "REST API")
@@ -37,18 +33,20 @@ System_Boundary(company, "Компания Будущее 2.0") {
     }
 
     Rel_D(his_fe, api_gateway, "HTTPS", "REST API")
-
     Rel_D(api_gateway, his_be, "HTTPS", "REST API")
     Rel_D(his_be, his_db, "JDBC", "SQL")
 
+    Container(camel, "Integration Bus", "Apache Camel", "ESB: маршрутизация, трансформация, интеграция")
 
-    SystemQueue(integration_bus, "Integration Bus", "Kafka", "Гибкая интеграция и потоковая обработка данных")
+    SystemQueue(integration_bus, "Kafka", "Event Streaming", "Платформа потоковой передачи данных")
+
+    Rel_D(his_be, camel, "REST/SOAP", "Медицинские события")
+    Rel_D(fintech_be, camel, "REST/JMS", "Финансовые события")
+    Rel_D(gw, camel, "HTTPS", "Внешние вызовы")
+    Rel_D(camel, integration_bus, "Kafka Producer", "Публикация событий")
 
     Rel_D(Client, fintech_fe, "Использует для доступа к данным и сервисам")
     Rel_D(Doc, his_fe, "Использует для доступа к данным и сервисам")
-
-    Rel_D(fintech_be, integration_bus, "", "")
-    Rel_D(his_be, integration_bus, "", "")
 
     Component(ai_system, "ИИ-система", "Python", "Обработка медицинских данных и аналитика") {
         Container(ai_fe, "Клиентское приложение", "React Native", "")
@@ -57,47 +55,42 @@ System_Boundary(company, "Компания Будущее 2.0") {
     }
 
     Rel_D(ai_fe, api_gateway, "HTTPS", "REST API")
-    Rel_D( api_gateway, ai_be, "HTTPS", "REST API")
+    Rel_D(api_gateway, ai_be, "HTTPS", "REST API")
     Rel_D(ai_be, ai_db, "JDBC", "SQL")
 
-    Component(dwh, "DWH", "Hadoop, Spark", "Оптимизированное хранилище данных и обработка больших данных") {
+    Component(dwh, "Новая DWH", "Hadoop, Spark", "Хранилище и обработка больших данных") {
         Container(data_ingest, "Data Ingestion", "Spark", "Загрузка и обработка данных")
         Container(data_lake, "Data Lake", "HDFS", "Хранилище разнородных данных")
         Container(data_marts, "Data Marts", "Hive", "Специализированные витрины данных")
     }
-    Container(data_lake, "Data Lake", "Хранилище разнородных данных", "Медицинские, финансовые и другие данные")
-    Component(bi_platform, "Портал самообслуживания BI Platform", "Tableau, Metabase", "Самообслуживание и конструктор отчётов")
 
+    Container(legacy_dwh, "Legacy DWH", "PostgreSQL/Oracle", "Исторические данные (Read-only)")
+
+    Component(bi_platform, "BI Platform", "Tableau, Metabase", "Самообслуживание и отчётность")
 }
 
 Lay_D(his, dwh)
 Lay_D(fintech_system, dwh)
 
-Rel_U(data_ingest, his_be,"", "")
-Rel_U(data_ingest, fintech_be,"", "")
-Rel_R(data_ingest, integration_bus, "", "")
+Rel_U(data_ingest, integration_bus, "Kafka Consumer", "Чтение событий")
 Rel_D(data_ingest, data_lake,"", "")
 Rel_D(data_lake, data_marts,"", "")
+Rel_D(data_marts, ai_be, "Чтение данных", "")
 
-Rel_L(bi_platform, data_marts, "", "")
-
+Rel_L(bi_platform, data_marts, "SQL", "BI отчеты (актуальные)")
+Rel_L(bi_platform, legacy_dwh, "SQL", "BI отчеты (архив)")
 Rel_D(Client, bi_platform, "Использует для доступа к отчетам")
 Rel_D(Doc, bi_platform, "Использует для доступа к отчетам")
-
-Rel_D(ai_be, data_marts, "Чтение данных")
-
 Rel_D(Admin, bi_platform, "Использует для построения отчётов")
-
 Rel_D(Client, ai_fe, "Использует для доступа к аналитике")
 Rel_D(Doc, ai_fe, "Использует для доступа к аналитике")
-
 Rel(bi_platform, IdP, "Использует для аутентификации и авторизации")
 
 System_Ext(lis, "LIS", "Система лабораторной диагностики")
 System_Ext(pharma, "Pharma", "Система управления аптеками")
 
-Rel_R(his_be, gw, "REST API", "HTTPS")  
+Rel_R(his_be, gw, "REST API", "HTTPS")
 Rel_R(gw, lis, "REST API", "HTTPS")
-Rel_R(gw, pharma, "REST API", "HTTPS")  
+Rel_R(gw, pharma, "REST API", "HTTPS")
 
 @enduml
